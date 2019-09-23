@@ -7,38 +7,15 @@
 fun solution(A: IntArray): Int {
     // write your code in Kotlin
     var result = 0
-//    var buy = 0
-//    var sell = 0
-    var profit = 0
     for (i in A.indices) {
         val buy = A[i]
-        /*
-        println("")
-        print("i:")
-        println(i)
-        print("buy:")
-        println(buy)
-        */
-        for (n in A.indices) {
-            /*
-            print("n:")
-            println(n)
-            */
-            if(n > i) {
-                val sell = A[n]
-                /*
-                print("sell:")
-                println(sell)
-                */
-                profit = sell - buy
-                /*
-                print("profit:")
-                println(profit)
-                */
-            }
+        val B = A.slice(i+1..A.lastIndex)
+        for (n in B.indices) {
+            val sell = B[n]
+            val profit = sell - buy
             if(result < profit) result = profit
         }
     }
     return result
 }
-// 2019-09-08
+// 2019-09-23
