@@ -6,16 +6,24 @@
 
 fun solution(A: IntArray): Int {
     // write your code in Kotlin
-    var result = 0
+    var profit_max = 0
+    var buy_min = 200000
+    print("buy_min:")
+    println(buy_min)
     for (i in A.indices) {
         val buy = A[i]
-        val B = A.slice(i+1..A.lastIndex)
-        for (n in B.indices) {
-            val sell = B[n]
-            val profit = sell - buy
-            if(result < profit) result = profit
-        }
+        print("buy:")
+        println(buy)
+        val profit = buy - buy_min
+        print("profit:")
+        println(profit)
+        if(profit_max < profit) profit_max = profit
+        print("profit_max:")
+        println(profit_max)
+        if(buy_min > buy) buy_min = buy
+        print("buy_min:")
+        println(buy_min)
     }
-    return result
+    return profit_max
 }
 // 2019-09-23

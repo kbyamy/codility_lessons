@@ -14,3 +14,9 @@ https://app.codility.com/demo/results/training4P47VN-3FU/
 - URL  
 https://app.codility.com/demo/results/training7HCFAG-GRU/
 
+#### 2019-09-23  
+- Result  
+100%
+- URL  
+https://app.codility.com/demo/results/trainingN8X3GN-AM8/
+
