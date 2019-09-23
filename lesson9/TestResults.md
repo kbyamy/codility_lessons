@@ -1,7 +1,9 @@
 # Test results
 ## Leeson 9
-### MaxProfit
 
+---
+
+### MaxProfit
 #### 2019-09-08
 - Result  
 66%
@@ -20,3 +22,11 @@ https://app.codility.com/demo/results/training7HCFAG-GRU/
 - URL  
 https://app.codility.com/demo/results/trainingN8X3GN-AM8/
 
+---
+
+### MaxSliceSum
+#### 2019-09-23
+- Result  
+30%
+- URL  
+https://app.codility.com/demo/results/trainingK89WHY-EGM/
