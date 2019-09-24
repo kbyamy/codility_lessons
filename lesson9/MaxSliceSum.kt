@@ -6,20 +6,20 @@ import kotlin.math.*
 
 fun solution(A: IntArray): Int {
     // write your code in Kotlin
-    var result = 0
+    var result = -2147483648
     var totalMax = 0
-    for(idx in A.indices) {
-        val value = A[idx]
+    for((idx, elm) in A.withIndex()) {
         println(" ")
-        print("value:")
-        println(value)
-        totalMax += value
+        print("elm:")
+        println(elm)
+        totalMax += elm
         print("totalMax:")
         println(totalMax)
-        if(result < totalMax) result = totalMax
-        // result = max(totalMax, value)
+        totalMax = max(elm, totalMax)
+        result = max(result, totalMax)
         print("result:")
         println(result)
     }
     return result
 }
+// 2019-09-25
