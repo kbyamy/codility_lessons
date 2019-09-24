@@ -30,3 +30,9 @@ https://app.codility.com/demo/results/trainingN8X3GN-AM8/
 30%
 - URL  
 https://app.codility.com/demo/results/trainingK89WHY-EGM/
+
+#### 2019-09-24
+- Result  
+30%
+- URL  
+https://app.codility.com/demo/results/trainingJNZ52K-7TV/

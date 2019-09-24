@@ -6,18 +6,20 @@ import kotlin.math.*
 
 fun solution(A: IntArray): Int {
     // write your code in Kotlin
-    println("")
-    //var result = 0
-    var slice_max = 0
-    var slice_total = 0
-    for(i in A.indices) {
-        println("")
-        slice_total += A[i]
-        print("slice_total:")
-        println(slice_total)
-        slice_max = max(slice_total, slice_max)
-        print("slice_max:")
-        println(slice_max)
+    var result = 0
+    var totalMax = 0
+    for(idx in A.indices) {
+        val value = A[idx]
+        println(" ")
+        print("value:")
+        println(value)
+        totalMax += value
+        print("totalMax:")
+        println(totalMax)
+        if(result < totalMax) result = totalMax
+        // result = max(totalMax, value)
+        print("result:")
+        println(result)
     }
-    return slice_max
+    return result
 }
