@@ -5,7 +5,11 @@
 71%
 - URL  
 https://app.codility.com/demo/results/trainingA5VG3J-UPQ/
-
+### 2019-09-29
+- Result  
+100%
+- URL  
+https://app.codility.com/demo/results/training8N9TFF-Z25/
 ## MinPerimeterRectangle
 ### 2019-09-29
 - Result  
